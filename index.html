@@ -1,322 +1,172 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Alice a personal category Flat bootstrap Responsive  Website Template | Home ::</title>
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- for-mobile-apps -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Alice Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->		
-<!--fonts-->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Signika:700,300,400,600' rel='stylesheet' type='text/css'>
-<!--//fonts-->
-<script src="js/jquery.min.js"> </script>
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<!-- js -->
-<script src="js/bootstrap.js"></script>
-<!-- js -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<!--/script-->
-<script type="text/javascript">
-jQuery(document).ready(function($) {
-$(".scroll").click(function(event){		
-event.preventDefault();
-$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
-});
-});
-</script>
+	<meta charset="UTF-8">
+	<title>杨柳的简历</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Web前端研发杨柳" />
+	<link rel='stylesheet' href="css/bootstrap.css" type='text/css' />
+	<link rel="stylesheet" href="fonts/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.min.js"></script>	
 </head>
 <body>
-<!--header-->
-<div id="home" class="header">
-		<div class="header-top">
-			<div class="container">
-					<div class="header-right-text">
-						<h3>Call Us:<span>(800)</span><i>1444 000 4040</i></h3>
-					</div>
-					<div class="header-btn">
-						<a href="#">Say Hello</a>
-					</div>
-			</div>
-			<div class="clearfix"> </div>
+	<div class="col-sm-3 col-md-2 sidebar">
+		<div class="sidebar_top">
+		 <h1>杨柳</h1> 
+		 <img src="img/yl.jpg" alt=""/>
 		</div>
-<div class="header-nav effect2">
-	<div class="container">
-		<div class="navigation">
-			<nav class="navbar navbar-default">
-				<div class="navbar-header">
-					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"> </span>
-						<span class="icon-bar"> </span>
-						<span class="icon-bar"> </span>
-					  </button>
-					</div>
-					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-					  <ul class="nav navbar-nav">
-						<li class="active"><a class="scroll" href="#home">Home <span class="sr-only">(current)</span></a></li>
-						<li><a class="scroll" href="#About">About</a></li>
-						<li><a class="scroll" href="#Portfolio">Portfolio</a></li>
-						<li><a class="scroll" href="#Contact">Contact Us</a></li>
-					  </ul>
-			  <div class="clearfix"> </div>
-			</div><!-- /.navbar-collapse -->
-		</nav>
-	</div>
-	</div>
-	</div>
-	<div class="clearfix"> </div>
-</div>
-			  <!-- script-for-menu -->
-		 <script>
-				$("span.menu").click(function(){
-					$(".top-nav ul").slideToggle("slow" , function(){
-					});
-				});
-		 </script>
-		 <!-- script-for-menu -->
-<div class="banner">
-	<div class="container">
-		<div class="grid__item color-9">
-				<a class="link link--ilin" href="#"><span>ALI</span><span>CE</span></a>
-			</div>
-		<p>A creative and interactive designer from<span>BELGIUM.</span></p>
-	</div>
-</div>
-<div class="content-part">
-<div class="body-pic">
-	<div class="container">
-		<img src="images/body.png" />
-	</div>
-	<div class="body-pic-bottom">
-	
-</div>
+		<div class="details">
+			 <h3>教育</h3>
+			 <p>黑龙江大学 软件工程<br>（2013年毕业）</p>
+			 <h3>电话</h3>
+			 <p>15114609215</p>  	 
+			 <h3>EMAIL</h3>
+			 <p><a href="yl_web@126.com">yl_web@126.com</a></p>
+			 <address>
+			 <h3>地址</h3>
+			 <span>北京</span>
+			 </address>
+			 <h3>籍贯</h3>
+			 <p>黑龙江省伊春市</p>			 
+		</div>
+		<div class="clearfix"></div>
+	</div>		
+	<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+		 <div class="content">
+			 <div class="details_header">
+				 <ul>
+					 <li>
+					 	<a href="index.html"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>简历</a>
+					 </li>
+					 <li>
+					 	<a href="#" id="print"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>打印</a>
+					 </li>
+					 <li>
+					 	<a href="email.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>发邮件</a>
+					 </li>					 
+					 <li>
+					 	<a href="https://github.com/yangliull"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Github</a>
+					 </li>
+					 <li>
+					 	<a href="http://www.ywillow.com"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>个人博客</a>
+					 </li>
+				 </ul>
+			 </div>
+			 <div id="commany" class="company">
+				 <h3 class="clr1">工作经历</h3>
+				 <div class="company_details">
+					 <h4>卓望信息技术有限公司北京分公司<span>2014.11-2016.03</span></h4>
+					 <h4>职位：产品助理</h4>
+					 <p class="cmpny1">工作描述：主要负责移动增值业务“校讯通”黑龙江地区的产品方面相关工作，协助产品经理进行需求分析，产品优化等，并使用Axure实现相关静态、动态页面的设计，还参与过其他项目前端开发相关工作。<br>参与的项目主要有：黑龙江校讯通家校圈，龙江校讯通APP，及名校题库等。</p>
+				 </div>
+				 <div class="company_details">
+					 <h4>哈尔滨市赫洋科技开发有限公司<span>2013.06-2014.10</span></h4>
+					 <h4>职位：产品助理，前端研发</h4>
+					 <p>工作描述：协助产品经理完成相关产品设计，以及前端开发相关工作。<br>参与的项目主要有：公司的门户网站，医患无线牵项目，及其他项目的部分网站等。</p>
+				 </div>
+			 </div>
+			 <div id="skills" class="skills">
+				 <h3 class="clr2">掌握技能</h3>
+				 <div class="skill_info">
+					<p>
+					 	1.熟悉HTML/CSS，能够编写语义化HTML，熟悉自适应/响应式/栅格等常见布局，还原设计稿；
+					</p>
+				 	<p>
+				 		2.熟悉JavaScript，了解原型/构造函数等常见设计模式，熟练使用jQuery框架；
+				 	</p>
+				 	<p>
+				 		3.理解并熟练掌握JavaScript语言核心技术DOM、BOM、Ajax、JSON等，了解RequireJS模块开发；
+				 	</p>
+				 	<p>
+				 		4.熟悉移动端开发特性，熟悉过渡/变换/媒体查询/关键帧动画等css3特性，了解已标准化的HTML5；
+				 	</p>
+				 	<p>
+				 		5.了解 Bootstrap框架，了解移动端开发框架Zepto/jQueryMobile；
+				 	</p>
+				 	<p>
+				 		6.了解常见的前端开发规范，了解基本的前端性能优化知识，了解常见的浏览器兼容性问题及解决方案；
+				 	</p>
+				 	<p>
+				 		7.了解GitHub/Bower/Less/Grunt/Axure等前端相关工具。
+				 	</p>
+				 </div>
+				 <div class="skill_list">
+					 <div class="skill1">
+						 <h4>工具</h4>
+						 <ul>					 
+							<li>Photoshop</li>
+							<li>Sublime Text</li>
+							<li>Gulp</li>
+							<li>Git</li>
+							<li>LESS</li>
+							<li>Bower</li>
+						 </ul>
+					 </div>
+					 <div class="skill2">
+						 <h4>语言</h4>
+						 <ul>					 
+							<li>HTML/CSS</li>
+							<li>HTML5/CSS3</li>
+							<li>JavaScript</li>
+							<li>Zepto/jQueryMobile</li>			
+							<li>jQuery/Bootstrap</li>
+							<li>RequireJS</li>
+						 </ul>
+					 </div>
+					 <div class="clearfix"></div>
+				 </div>
+			 </div>
+			 <div id="products"class="products">
+				 <h3 class="clr3">项目经验</h3>
+				 <div class="products_details">
+					 <h4>童知童去儿<span>职位:首页+活动展示模块</span></h4>
+					 <h6>开发语言：HTML，CSS，JavaScript(Bootstrap框架)</h6>			 
+					 <p class="cmpny1">主要功能：该项目主要是一个为孩子提供兴趣活动的平台，用户与商家实时进行在线交流，并通过报团的方式参与活动，发表评论，分享教育心得等。</p>
+				 </div>
+				 <div class="products_details">
+					 <h4>个人网站 <span>职位：整站开发</span></h4>
+					 <h6>开发语言：HTML，CSS，JavaScript，PHP(CI框架)</h6>				 
+					 <p class="cmpny1">主要功能：该项目包含个人网站前端页面和后台信息管理界面。前端页面完成了个人网站的基本功能，如查看个人作品，博客，博客评论，留言等；管理界面则实现了对管理员、博客、评论及留言信息的增删改查的操作。</p>
+				 </div>
+				 <div class="products_details">
+					 <h4>蜜芽网站（仿写）<span>职位：整站开发</span></h4>
+					 <h6>开发语言：HTML，CSS，JavaScript</h6>
+					 <p class="cmpny1">主要功能：该项目仿蜜芽网实现了对注册、登录、主页、商品列表等前端界面显示，用JavaScript原生代码实现了二级菜单、选项卡，活动倒计时等一系列特效。</p>
+				 </div>
+			 </div>
+		 </div>
+		 <div id="totop">
+			<i class="glyphicon glyphicon-chevron-up"></i>回到顶部
+		 </div>
 
-</div>
-<div class="clearfix"> </div>
-<div id="About" class="skills">
-	<div class="container">
-		<div class="skills-info">
-		<h3>Skills</h3>
-			<div class="study2">
-						<h4>Html</h4>
-							<div class="progress">
-							  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-								<span class="sr-only">40% Complete (success)</span>
-							  </div>
-							</div>
-						<h4>Css</h4>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-							<span class="sr-only">20% Complete</span>
-						  </div>
-						</div>
-						<h4>Js</h4>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-							<span class="sr-only">60% Complete (warning)</span>
-						  </div>
-						</div>
-						<h4>Php</h4><h4>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-							<span class="sr-only">80% Complete (danger)</span>
-						  </div>
-						</div>
-						</h4>
-			</div>
-			</div>
-			</div>
-			</div>
-</div>
-<div class="social-icon">
-	<div class="container">
-		<a href="#">
-		<div class="facebook">
-			<span class="icon1"> </span>
-			<label><i>3958k</i> <br />Likes</label>
-		</div>
-		</a>
-		<a href="#">
-		<div class="twitter">
-			<span class="icon2"> </span>
-			<label><i>125k</i> <br />Followers</label>
-		</div>
-		</a>
-		<a href="#">
-		<div class="youtube">
-			<span class="icon3"> </span>
-			<label><i>10,000k</i> <br />Followers</label>	
-		</div>
-		</a>
-		<a href="#">
-		<div class="linkdin">
-			<span class="icon4"> </span>
-			<label><i>87k</i> <br />Followers</label>
-		</div>
-		</a>
-		<div class="clearfix"> </div>
 	</div>
-	<div class="clearfix"> </div>
-</div>
-		<!--light-box-js -->
-				<script src="js/jquery.chocolat.js"></script>
-				<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8" />
-				<!--light-box-files -->
-				<script type="text/javascript" charset="utf-8">
-				$(function() {
-					$('.moments-bottom a').Chocolat();
-				});
-				</script> 
-			<!--//end-gallery js-->
-<div id="Portfolio" class="portfolio">
-			<div class="container">
-				<h3>Portfolio</h3>
-        <div class="gallery-info">
-				<div class="col-md-4 galry-grids moments-bottom">
-					<a class="b-link-stripe b-animate-go" href="images/img9.jpg">
-						<img src="images/img9.jpg" class="img-responsive" alt="">
-						<div class="b-wrapper">
-							<span class="b-animate b-from-left    b-delay03 ">
-								<img class="img-responsive" src="images/e.png" alt=""/>
-							</span>					
-						</div>
-					</a>				
-				</div>
-				<div class="col-md-4 galry-grids moments-bottom">
-					<a class="b-link-stripe b-animate-go" href="images/img10.jpg">
-						<img src="images/img10.jpg" class="img-responsive" alt="">
-						<div class="b-wrapper">
-							<span class="b-animate b-from-left b-delay03 ">
-								<img class="img-responsive" src="images/e.png" alt=""/>
-							</span>					
-						</div>
-					</a>				
-				</div>
-				<div class="col-md-4 galry-grids moments-bottom">
-					<a class="b-link-stripe b-animate-go" href="images/img11.jpg">
-						<img src="images/img11.jpg" class="img-responsive" alt="">
-						<div class="b-wrapper">
-							<span class="b-animate b-from-left    b-delay03 ">
-								<img class="img-responsive" src="images/e.png" alt=""/>
-							</span>					
-						</div>
-					</a>				
-				</div>				
-				<div class="col-md-4 galry-grids moments-bottom">
-					<a class="b-link-stripe b-animate-go" href="images/img12.jpg">
-						<img src="images/img12.jpg" class="img-responsive" alt="">
-						<div class="b-wrapper">
-							<span class="b-animate b-from-left    b-delay03 ">
-								<img class="img-responsive" src="images/e.png" alt=""/>
-							</span>					
-						</div>
-					</a>				
-				</div>
-				<div class="col-md-4 galry-grids moments-bottom">
-					<a class="b-link-stripe b-animate-go" href="images/img13.jpg">
-						<img src="images/img13.jpg" class="img-responsive" alt="">
-						<div class="b-wrapper">
-							<span class="b-animate b-from-left    b-delay03 ">
-								<img class="img-responsive" src="images/e.png" alt=""/>
-							</span>					
-						</div>
-					</a>				
-				</div>
-				<div class="col-md-4 galry-grids moments-bottom">
-					<a class="b-link-stripe b-animate-go" href="images/img14.jpg">
-						<img src="images/img14.jpg" class="img-responsive" alt="">
-						<div class="b-wrapper">
-							<span class="b-animate b-from-left    b-delay03 ">
-								<img class="img-responsive" src="images/e.png" alt=""/>
-							</span>					
-						</div>
-					</a>				
-				</div>
-				<div class="col-md-4 galry-grids moments-bottom">
-					<a class="b-link-stripe b-animate-go" href="images/img15.jpg">
-						<img src="images/img15.jpg" class="img-responsive" alt="">
-						<div class="b-wrapper">
-							<span class="b-animate b-from-left    b-delay03 ">
-								<img class="img-responsive" src="images/e.png" alt=""/>
-							</span>					
-						</div>
-					</a>				
-				</div>
-				<div class="col-md-4 galry-grids moments-bottom">
-					<a class="b-link-stripe b-animate-go" href="images/img16.jpg">
-						<img src="images/img16.jpg" class="img-responsive" alt="">
-						<div class="b-wrapper">
-							<span class="b-animate b-from-left    b-delay03 ">
-								<img class="img-responsive" src="images/e.png" alt=""/>
-							</span>					
-						</div>
-					</a>				
-				</div>
-				<div class="col-md-4 galry-grids moments-bottom">
-					<a class="b-link-stripe b-animate-go" href="images/img17.jpg" >
-						<img src="images/img17.jpg" class="img-responsive" alt="">
-						<div class="b-wrapper">
-							<span class="b-animate b-from-left    b-delay03 ">
-								<img class="img-responsive" src="images/e.png" alt=""/>
-							</span>					
-						</div>
-					</a>				
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			</div>
-</div>
-			<div id="Contact" class="contact">
-	<div class="container">
-		<div class="content_middle_bottom">
-          <h3 class="tz-title-3">Get In Touch</h3>
-		  <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
-		</div>
-		<div class="col-sm-8 grid_2">
-		   <h3>Say hello!</h3>
-	       <form>
-			 <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-			 <input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
-			 <textarea value="Message" onfocus="this.value= '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
-			 <input type="submit" value="Send Message">
-		  </form>
-	    </div>
-		<div class="col-sm-4 map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103344.96318068985!2d-83.9250825!3d35.9584634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885c162246ce42a9%3A0x7bea92dac4f534c5!2sKnoxville%2C+TN%2C+USA!5e0!3m2!1sen!2sin!4v1434174666221" frameborder="0" style="border:0"> </iframe>
-		</div>
-		<div class="clearfix"> </div>
-	</div>
-</div>
-<div class="footer">
-	<div class="copy">
-		<p>Copyright &copy; 2015<a target="_blank" href="http://www.moke8.com/">魔客吧</a></p>
-   </div>
-   <script type="text/javascript">
-						$(document).ready(function() {
-							/*
-							var defaults = {
-					  			containerID: 'toTop', // fading element id
-								containerHoverID: 'toTopHover', // fading element hover id
-								scrollSpeed: 1200,
-								easingType: 'linear' 
-					 		};
-							*/
-							
-							$().UItoTop({ easingType: 'easeOutQuart' });
-							
-						});
-					</script>
-				<a href="#" id="toTop" style="display: block;"><span id="toTopHover"></span> <span id="toTopHover" style="opacity: 1;"> </span></a>
-</div>
+	<script>
+		var oPrint = document.querySelector('#print');
+		oPrint.onclick = function(){
+			window.print();
+		};
+		var oTotop = document.getElementById('totop');	
+		window.onscroll=function() {
+			var t = document.documentElement.scrollTop||document.body.scrollTop;
+			if(t>=200) {
+				oTotop.style.display = "block";
+			}else {
+				oTotop.style.display = "none";
+			}
+			oTotop.onclick = function() {
+			var startTime = new Date();
+			requestAnimationFrame(function f(){
+				var p = (new Date()-startTime)/1000;
+				document.body.scrollTop = t*(1-p);
+				if(p<1) {
+					requestAnimationFrame(f);
+				}
+			});
+		}
+		}
+
+	</script>
 </body>
 </html>
